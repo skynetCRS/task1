@@ -1,0 +1,45 @@
+body{
+  font-size: 2rem;
+  background-color: #9deebe;
+}
+@media (max-width:600px) {
+  body{
+    font-size: 3rem;
+  }
+}
+h1{
+  text-align: center;
+}
+img{
+  width:20%;
+  border-radius: 10px;
+}
+a{
+  text-decoration: none;
+}
+button{
+  background-color: #00cc00;
+  text-decoration-color: #fff;
+}
+div{
+  text-align: center;
+}
+div>p{
+  text-align: center;
+}
+div>img{
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+}
+div>a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div>button{
+  font-size:2rem;
+}
+a:hover{
+  color:#7fff00;
+}
